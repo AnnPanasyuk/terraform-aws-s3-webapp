@@ -1,6 +1,6 @@
 variable "region" {
   description = "Region string"
-  default = ""
+  default = "Region default value"
 }
 variable "prefix" {}
 variable "name" {}
