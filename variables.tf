@@ -1,6 +1,6 @@
 variable "region" {
   description = "Region string"
-  default = "Region default value"
+  default = "us-east-1"
 }
 variable "prefix" {
   description = "Prefix string"
