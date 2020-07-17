@@ -5,7 +5,6 @@ variable "region" {
 variable "prefix" {
   description = "Prefix string"
   default = "ff"  
-  sensitive = true
 }
 variable "name" {}
 
