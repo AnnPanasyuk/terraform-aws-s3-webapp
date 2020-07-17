@@ -1,10 +1,10 @@
 variable "region" {
   description = "Region string"
-  value = "us-east-1"
+  default = "us-east-1"
 }
 variable "prefix" {
   description = "Prefix string"
-  default = ""  
+  default = "ff"  
   sensitive = true
 }
 variable "name" {}
