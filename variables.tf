@@ -3,7 +3,7 @@ variable "region" {
 }
 variable "prefix" {
   description = "Prefix string"
-  default = "ff"  
+  default = ["a", "b", "c"]
 }
 variable "name" {}
 
