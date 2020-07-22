@@ -4,7 +4,7 @@ variable "region" {
 }
 variable "prefix" {
   description = "Prefix array"
-  default     = "["a", "b", "c"]"
+  default     = ["a", "b", "c"]
 }
 variable "name" {
   default = "name1"  
